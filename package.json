@@ -14,6 +14,13 @@
     "GameMaker",
     "Linter"
   ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
   "author": "Thomas Hickman",
   "license": "MIT",
   "dependencies": {
