@@ -1,0 +1,22 @@
+{
+  "name": "linter-gml",
+  "version": "1.0.0",
+  "description": "A GML (GameMaker language linter)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "atom": ">=0.189.0 <2.0.0"
+  },
+  "keywords": [
+    "GML",
+    "GameMaker",
+    "Linter"
+  ],
+  "author": "Thomas Hickman",
+  "license": "MIT",
+  "dependencies": {
+    "gml-pegjs": "^0.1.0"
+  }
+}
