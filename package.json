@@ -1,8 +1,8 @@
 {
   "name": "linter-gml",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A GML (GameMaker language linter)",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,8 @@
   "keywords": [
     "GML",
     "GameMaker",
-    "Linter"
+    "linter",
+    "error check"
   ],
   "providedServices": {
     "linter": {
