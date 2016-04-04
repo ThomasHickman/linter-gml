@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A GML (GameMaker language linter)",
   "main": "index.js",
+  "repository": "https://github.com/ThomasHickman/linter-gml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +23,9 @@
       }
     }
   },
-  "author": "Thomas Hickman",
+  "author": {
+      "name":"Thomas Hickman"
+  },
   "license": "MIT",
   "dependencies": {
     "gml-pegjs": "^0.1.0"
