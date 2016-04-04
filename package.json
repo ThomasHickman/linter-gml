@@ -1,6 +1,6 @@
 {
   "name": "linter-gml",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A GML (GameMaker language linter)",
   "main": "index.js",
   "repository": "https://github.com/ThomasHickman/linter-gml",
@@ -24,7 +24,7 @@
     }
   },
   "author": {
-      "name":"Thomas Hickman"
+    "name": "Thomas Hickman"
   },
   "license": "MIT",
   "dependencies": {
