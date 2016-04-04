@@ -25,4 +25,4 @@ npm install
 
 ## Related packages
 
-[autocomplete-gml](https://atom.io/packages/autocomplete-gml)
+  * [autocomplete-gml](https://atom.io/packages/autocomplete-gml)
