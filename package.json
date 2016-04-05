@@ -1,6 +1,6 @@
 {
   "name": "linter-gml",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A GML (GameMaker language) linter",
   "main": "index.js",
   "repository": "https://github.com/ThomasHickman/linter-gml",
