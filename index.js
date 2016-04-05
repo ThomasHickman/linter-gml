@@ -17,8 +17,8 @@ module.exports = {
                     return [{
                         type: "Error",
                         text: e.message,
-                        range: [[e.location.start.line, e.location.start.column],
-                                [e.location.end.line, e.location.end.column]],
+                        range: [[e.location.start.line - 1, e.location.start.column - 1],
+                                [e.location.end.line - 1, e.location.end.column - 1]],
                         filePath: textEditor.getPath()
                     }]
                 }
