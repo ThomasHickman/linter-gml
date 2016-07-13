@@ -9,7 +9,7 @@ module.exports = {
             lintOnFly: true,
             lint: (textEditor) => {
                 try{
-                    gmlParser.parse(atom.workspace.getActiveTextEditor().buffer.cachedText);
+                    gmlParser.parse(atom.workspace.getActiveTextEditor().getText());
                 }
                 catch(e){
                     if(e.location == undefined)
